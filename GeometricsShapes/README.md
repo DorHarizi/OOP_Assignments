@@ -46,5 +46,3 @@ Create an executable JAR file named `Ex4.jar`. This JAR file should accept param
 The project includes an executable JAR file, `Ex4.jar`, which can be executed with filename and sorting method parameters to display the geometric shapes graphically in a sorted order based on the provided sorting method.
 
 ---
-
-For detailed instructions, implementation guidelines, and additional information, refer to the specific README files and documentation included within each phase and class directory.
