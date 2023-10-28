@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+Ex1 <|-- Ex1_Building
+Ex1 <|-- Ex1_function
+Ex1 <|-- Ex1_allocate
+Ex1_Building <|-- Ex1_Calls
+Ex1_Building <|-- Ex1_Elevator
+
+class Ex1_Elevator {
++ __init__(self, id: int, speed: float, min_floor, max_floor: int, close_time: float, open_time: float,
+                 start_time: float, stop_time: float)
++ def get_mat(self):
++ def calc(self, src, dest):
++ def fill_mat(self):
++ def __str__(self) -> str:
++ def __repr__(self) -> str:
++ def min_way(self, x, y):
++        self.id
++        self.speed
++        self.min_floor
++        self.max_floor
++        self.close_time
++        self.open_time
++        self.start_time
++        self.stop_time
++        self.arr
+}
+class Ex1_Calls {
+ +def __init__(self, name: str, time_call: float, src: int, dest: int, ignore_1: int, index_elev: int) -> None:
+ +       self.name
+ +       self.time_call
+ +      self.src
+ +       self.dest
+ +       self.ignore_1
+ +       self.index_elev
+ +def __str__(self) -> str:
+ +def __repr__(self) -> str:
+}
+class Ex1_Building {
+ +def __init__(self) -> None:
+ +       self.max_floor
+ +       self.min_floor
+ +       self.list_elevators
+ +def load_json(self, file_name):
+ +def __str__(self) -> str:
+ +def __repr__(self) -> str:
+ +def get_elevator(self, i):
+}
+class Ex1_allocate {
+ +def allocate(building, calls):
+}
+class Ex1_function {
+ +def max_speed(elevators):
+}
+class Ex1 {
+ +main
+ #load and write the csv files and load the json file
+}
+
+@enduml
