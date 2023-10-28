@@ -1,4 +1,4 @@
-# Pokemon_game_python_oop_Ex5:                                                                
+# Pokemon_game_python_oop_Ex4:                                                                
 ## Dor Harizi
 ## Bar Nahmias [[GitHub](https://github.com/BarNahmias)]
 
