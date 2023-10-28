@@ -37,7 +37,7 @@ java -jar Ex1_checker_V1.2_obf.jar <ID, building.json, calls.csv, out.log>
 ## Smart Elevator UML:
 
 <p align="center">
-    <img width="800" height="900" src="https://github.com/DorHarizi/Task1_ElevatorSystem/uml.png">
+    <img width="800" height="900" src="https://github.com/DorHarizi/OOP_Assignments/Task1_ElevatorSystem/uml.png">
    </p>
    
 ---
