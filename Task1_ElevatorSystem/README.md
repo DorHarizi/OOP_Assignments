@@ -20,7 +20,7 @@ Reference to how to use: [ click here](#How-to-use)
 ## How to use the program:
 Clone the repository 
 ```
-git clone https://github.com/DorHarizi/Dor_Harizi_2_Year_Ex1-oop_Python.git 
+git clone https://github.com/DorHarizi/Opp_Assignments/tree/main/Task1_ElevatorSystem.git
 ```
 Run the program from the cmd: building file.json , call file.csv, output file.csv 
 ```
